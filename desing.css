@@ -1,0 +1,179 @@
+
+@media screen {
+    body{
+        background-image:url(set.jpg);
+        background-size: auto;
+        background-position: top;
+        background-repeat: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+
+    }
+.short{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: transparent;
+    backdrop-filter: blur(40px) brightness(0.8);
+    flex-wrap: wrap;
+    z-index: 100;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+
+}
+.short button{
+    position: absolute;
+    padding: 12px;
+    left: 1.5%;
+    top: 5px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 11px;
+    font-size: 24px;
+    background-color: transparent;
+    color:black;
+    transition: 300ms;
+}
+.short button:hover{
+   background-color: rgba(255, 255, 255, 0.435);
+   color: black;
+   transition: 420ms;
+}
+
+.short img{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    border-radius: 100%;
+    transition: 400ms;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+}
+#titulo{
+    position: relative;
+    top: 150px;
+    left: 0%;
+    font-size: 40px;
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+
+}
+#down{
+    position: relative;
+    top: 90px;
+    font-size:30px;
+    color: rgb(0, 0, 0);
+    left: 45%;
+    width: 350px;
+    font-size: 24px;
+    text-overflow: inhe;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#menu{
+    position: fixed;
+    left: -1000px;
+    top: 0px;
+    width: 45%;
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(19px)  brightness(0.7);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-start;
+    transition-timing-function: ease;
+    transition: 600ms;
+    z-index: 100;
+}
+#menu a{
+    font-size: 19px;
+    transition: 400ms;
+    color: black;
+    margin: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+#menu a:hover{
+    transition: 400ms;
+    transition-timing-function: ease;
+    color: white;
+    text-decoration: none;
+}
+#backimg{
+    position: fixed;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 0.5;
+    transition: 500ms;
+    z-index: 99;
+}
+#text{
+    position: relative;
+    top: 200px;
+    width: 900px;
+    height: auto;
+    left: 0px;
+    flex-wrap: wrap;
+
+}
+#text h2{
+    position: relative;
+    margin: 18px;
+    left: 0px;
+    flex-wrap: wrap;
+    font-size: 28px;
+
+}
+#text p{
+    position: relative;
+    margin: 18px;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+}
+.tag{
+    position: relative;
+    height: auto;
+    width: auto;
+    left: 0px;
+    padding: 10px;
+    background-color:rgb(246, 246, 246);
+    flex-wrap: wrap;
+    border-radius: 17px;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+}
+#elements{
+    position: relative;
+    left: 0px;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+}
